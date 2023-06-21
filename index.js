@@ -1,5 +1,6 @@
 var express= require('express')
 var fs= require('node:fs')
+var app= express()
 var bb= fs.readFileSync('./jokes.json')
 bb = bb.toString()
 bb=JSON.parse(bb)
