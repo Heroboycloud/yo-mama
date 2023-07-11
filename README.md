@@ -1,7 +1,7 @@
 # Yo Mama
 
 A collection of yo mama jokes in JSON format.
-
+>  yup
 ## Contributing
 
 Open an issue or a pull request to suggest changes or additions.
