@@ -16,7 +16,7 @@ return j[(Math.floor(Math.random() * le))]
 
 
 function running(){
-console.log('Server running on 8080...')
+console.log(' Joke Server running on 8080...')
 }
 app.get('/',(req,res)=>{
 res.json({
