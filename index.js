@@ -1,5 +1,4 @@
-// This is yo mama api
-var express= require('express');
+const express= require('express');
 var fs= require('node:fs');
 var app= express()
 var bb= fs.readFileSync('./jokes.json')
