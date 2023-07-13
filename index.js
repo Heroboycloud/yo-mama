@@ -1,4 +1,4 @@
-// my app
+// This is yo mama api
 var express= require('express');
 var fs= require('node:fs');
 var app= express()
