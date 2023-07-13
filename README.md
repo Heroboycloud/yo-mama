@@ -17,4 +17,5 @@ Open an issue or a pull request to suggest changes or additions.
 To the extent possible under law, [Josh Buchea](http://joshbuchea.com) has waived all copyright and related or neighboring rights to this work.
 #Todos
 
-1. Create an Express server 
+[*] Create an Express server 
+[] Host very well 
