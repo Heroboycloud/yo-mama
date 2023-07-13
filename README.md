@@ -19,3 +19,4 @@ To the extent possible under law, [Josh Buchea](http://joshbuchea.com) has waive
 
 [*] Create an Express server 
 [] Host very well 
+[*] Get the jokes ready
