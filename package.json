@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/heroboyCloud/yo-mama#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "fs": ""
   }
 }

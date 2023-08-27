@@ -7,7 +7,7 @@ Build steps include `npm i express`
 
 */
 const express= require('express');
-var fs= require('node:fs');
+var fs= require('fs');
 var app= express()
 var bb= fs.readFileSync('./jokes.json')
 bb = bb.toString()
