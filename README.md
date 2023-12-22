@@ -1,6 +1,6 @@
 # Yo Mama
 
-A collection of yo mama jokes in JSON format.
+Yo mama pull off app
 >  yup
 ## Contributing
 
@@ -8,14 +8,13 @@ Open an issue or a pull request to suggest changes or additions.
 
 ## Author
 
-**[Josh Buchea](http://joshbuchea.com/)**
+**[Akindel](http://akindel-portfolio.vercel.app/)**
 
 ## License
+hmm... not yet
 
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [Josh Buchea](http://joshbuchea.com) has waived all copyright and related or neighboring rights to this work.
 #Todos
 
 [*] Create an Express server 
 [] Host very well 
+[] Create telegram and discord bot

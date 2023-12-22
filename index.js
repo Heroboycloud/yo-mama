@@ -28,8 +28,20 @@ tags: arr
 })
 });
 
-app.get('/:name',(req,res)=>{
+app.get('/tag/:name',(req,res)=>{
 let name= req.params.name;
+if(arr.includes(name)){
 res.send(Randomize(bb[`${name}`]));
+}
+else{
+res.send('Not ready for that bro...No joke here');
+}
+})
+
+
+app.get('/random',(req,res)=>{
+let tag= Randomize(arr);
+let joke=Randomize(bb[`${tag}`])
+res.send(joke);
 
 })
