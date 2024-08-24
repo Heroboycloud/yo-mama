@@ -46,3 +46,9 @@ let name= req.params.name;
 res.send(Randomize(bb[`${name}`]));
 
 })
+
+app.get('/send',(req,res)=>{
+let name= Randomize(bb);
+res.send(Randomize(bb[`${name}`]));
+
+})
