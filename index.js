@@ -33,6 +33,13 @@ tags: arr
 
 })
 });
+app.get('/tags',(req,res)=>{
+res.json({
+title: "Joke Fetcher",
+tags: arr
+
+})
+});
 
 app.get('/:name',(req,res)=>{
 let name= req.params.name;
