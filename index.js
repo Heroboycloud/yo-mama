@@ -22,7 +22,9 @@ let le= j.length;
 return j[(Math.floor(Math.random() * le))]
 }
 
-
+function getRandom(arr){
+ return arr[Math.floor(Math.random() * arr.length)];
+}
 function running(){
 console.log(' Joke Server running on 8080...')
 }
@@ -48,7 +50,7 @@ res.send(Randomize(bb[`${name}`]));
 })
 
 app.get('/send',(req,res)=>{
-let name= Randomize(bb);
+let name= getRandom(arr);
 res.send(Randomize(bb[`${name}`]));
 
 })
